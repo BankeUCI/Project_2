@@ -18,7 +18,7 @@ Business rules:
 - Total
 
 3. Disciplines of interest: 
-- should not contain <ball>
+- should not contain 'ball'
 
 4. Tables:
 - each table has primary key

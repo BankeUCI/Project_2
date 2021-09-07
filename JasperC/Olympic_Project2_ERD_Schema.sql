@@ -4,8 +4,8 @@
 
 CREATE TABLE "Athletes" (
     "Name" varchar(255)   NOT NULL,
-    "NOC" string   NOT NULL,
-    "Discipline" string   NOT NULL,
+    "NOC" varchar(225)   NOT NULL,
+    "Discipline" varchar(225)   NOT NULL,
     CONSTRAINT "pk_Athletes" PRIMARY KEY (
         "NOC"
      )
@@ -63,4 +63,3 @@ REFERENCES "Athletes" ("NOC");
 
 ALTER TABLE "Teams" ADD CONSTRAINT "fk_Teams_NOC" FOREIGN KEY("NOC")
 REFERENCES "Athletes" ("NOC");
-

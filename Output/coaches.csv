@@ -1,104 +1,104 @@
-,last_name,first_name,noc,discipline,event
-0,Aikman,Siegfried,Japan,Hockey,Men
-1,Al,Saadi,Germany,Hockey,Men
-2,Annan,Alyson,Netherlands,Hockey,Women
-3,Arnau,Creus,Japan,Hockey,Women
-4,Basso,Paola,Great Britain,Artistic Swimming,Duet
-5,Batch,Colin,Australia,Hockey,Men
-6,Biro,Attila,Hungary,Water Polo,Women
-7,Broderick,William,Brazil,Rugby Sevens,Women
-8,Brown,Chris,United States of America,Rugby Sevens,Women
-9,Bunting,Allan,New Zealand,Rugby Sevens,Women
-10,Burlando,Giovanna,Italy,Artistic Swimming,
-11,Byrne,Mick,Canada,Rugby Sevens,Women
-12,Caldas,Max,Netherlands,Hockey,Men
-13,Campagna,Alessandro,Italy,Water Polo,Men
-14,Courteix,David,France,Rugby Sevens,Women
-15,Danchenko,Tatiana,ROC,Artistic Swimming,Duet
-16,Davy,Jeremy,Australia,Hockey,Women
-17,De,Vos,Netherlands,Hockey,
-18,Delaney,Mike,New Zealand,Hockey,
-19,Didenko,Natalia,Spain,Artistic Swimming,
-20,Dore,Karine,Canada,Artistic Swimming,
-21,Eitoku,Atsushi,Japan,Artistic Swimming,
-22,Fabre,Julie,France,Artistic Swimming,Duet
-23,Farinelli,Roberta,Italy,Artistic Swimming,Duet
-24,Farinelli,Roberta,Italy,Artistic Swimming,Team
-25,Fatovic,Elvis,Australia,Water Polo,Men
-26,Fediushyna,Tetiana,Ukraine,Artistic Swimming,
-27,Forrest,Scott,Great Britain,Rugby Sevens,Women
-28,Friday,Mike,United States of America,Rugby Sevens,Men
-29,Fuentes,Andrea,United States of America,Artistic Swimming,Duet
-30,Fujiki,Mayuko,Spain,Artistic Swimming,Duet
-31,Fujiki,Mayuko,Spain,Artistic Swimming,Team
-32,Gademan,Pasha,Canada,Hockey,Men
-33,Gaidukov,Aleksandr,ROC,Water Polo,Women
-34,Giallombardo,Patrizia,Italy,Artistic Swimming,Duet
-35,Giallombardo,Patrizia,Italy,Artistic Swimming,Team
-36,Gryzunova,Elena,ROC,Artistic Swimming,Team
-37,Hager,Mark,Great Britain,Hockey,Women
-38,Halkett,Rhett,Netherlands,Hockey,
-39,Havenga,Arno,Netherlands,Water Polo,Women
-40,Henkel,Claas,Germany,Hockey,Men
-41,Henning,Andre,Canada,Hockey,Men
-42,Imura,Masayo,Japan,Artistic Swimming,
-43,Iwabuchi,Kensuke,Japan,Rugby Sevens,Men
-44,Jauma,Cayuela,Netherlands,Artistic Swimming,Duet
-45,Jennings,Dee,Australia,Hockey,
-46,Jimenez,Nieto,Spain,Artistic Swimming,
-47,Keller,Florian,Germany,Hockey,Women
-48,Kerry,Danny,Great Britain,Hockey,Men
-49,Krikorian,Adam,United States of America,Water Polo,Women
-50,Kulesza,Katarzyna,Canada,Artistic Swimming,Team
-51,Kuzin,Andrey,ROC,Rugby Sevens,Women
-52,Laidlaw,Clark,New Zealand,Rugby Sevens,Men
-53,Lock,Adrian,Spain,Hockey,Women
-54,Mackintosh,Euan,People's Republic of China,Rugby Sevens,Women
-55,Makiri,Hare,Japan,Rugby Sevens,Women
-56,Manenti,John,Australia,Rugby Sevens,Women
-57,Marcz,Tamas,Hungary,Water Polo,Men
-58,Martin,Lozano,Spain,Water Polo,Men
-59,Mengual,Civil,Spain,Artistic Swimming,
-60,Mezhenina,Valeriia,Ukraine,Artistic Swimming,Team
-61,Mihailovic,Predrag,Australia,Water Polo,Women
-62,Miura,Keiko,Japan,Hockey,Women
-63,Miyakawa,Miya,Japan,Artistic Swimming,
-64,Montico,Loredana,Australia,Artistic Swimming,Duet
-65,Montico,Loredana,Australia,Artistic Swimming,Team
-66,Motomiya,Makihiro,Japan,Water Polo,Women
-67,Nishida,Takumi,Japan,Rugby Sevens,
-68,Oca,Gaia,Spain,Water Polo,Women
-69,Omoto,Yoji,Japan,Water Polo,Men
-70,Paradelo,David,Canada,Water Polo,Women
-71,Paul,Henry,Canada,Rugby Sevens,Men
-72,Pibiri,Rossella,Italy,Artistic Swimming,
-73,Piskareva,Ekaterina,ROC,Artistic Swimming,
-74,Porobic,Petar,People's Republic of China,Water Polo,Women
-75,Potter,Anthony,Australia,Hockey,Men
-76,Powell,Katrina,Australia,Hockey,Women
-77,Reckinger,Xavier,Germany,Hockey,Women
-78,Requena,Pericas,Spain,Artistic Swimming,Duet
-79,Requena,Pericas,Spain,Artistic Swimming,Team
-80,Roques,Anthony,Great Britain,Rugby Sevens,Men
-81,Seo,Chun,Republic of Korea,Rugby Sevens,Men
-82,Shaw,Graham,New Zealand,Hockey,Women
-83,Smith,Darren,New Zealand,Hockey,Men
-84,Soyez,Frederic,Spain,Hockey,Men
-85,Speroni,Stefania,Great Britain,Artistic Swimming,Duet
-86,Staniforth,Dave,Australia,Hockey,
-87,Szauder,Gabor,Canada,Artistic Swimming,Duet
-88,Szauder,Gabor,Canada,Artistic Swimming,Team
-89,Takita,Risako,Japan,Artistic Swimming,
-90,Tomomatsu,Yumiko,Italy,Artistic Swimming,
-91,Turner,Glenn,New Zealand,Hockey,Men
-92,Udovicic,Dejan,United States of America,Water Polo,Men
-93,Utkin,Volodymyr,Ukraine,Artistic Swimming,
-94,Vega,Herrero,Spain,Artistic Swimming,
-95,Voronova,Elena,ROC,Artistic Swimming,Duet
-96,Walsh,Tim,Australia,Rugby Sevens,Men
-97,Wang,Jie,People's Republic of China,Artistic Swimming,Duet
-98,Wang,Jie,People's Republic of China,Artistic Swimming,Team
-99,Wang,Yang,People's Republic of China,Hockey,Women
-100,Zaitseva,Olesia,Ukraine,Artistic Swimming,Duet
-101,Zhang,Xiaohuan,People's Republic of China,Artistic Swimming,
-102,Zijp,Simon,Netherlands,Hockey,
+coach_id,last_name,first_name,country_id,discipline_id,event_id
+0,Aikman,Siegfried,9,17,3
+1,Al,Saadi,5,17,3
+2,Annan,Alyson,10,17,21
+3,Arnau,Creus,9,17,21
+4,Basso,Paola,6,2,1
+5,Batch,Colin,0,17,3
+6,Biro,Attila,7,36,21
+7,Broderick,William,1,24,21
+8,Brown,Chris,20,24,21
+9,Bunting,Allan,11,24,21
+10,Burlando,Giovanna,8,2,
+11,Byrne,Mick,2,24,21
+12,Caldas,Max,10,17,3
+13,Campagna,Alessandro,8,36,3
+14,Courteix,David,4,24,21
+15,Danchenko,Tatiana,14,2,1
+16,Davy,Jeremy,0,17,21
+17,De,Vos,10,17,
+18,Delaney,Mike,11,17,
+19,Didenko,Natalia,16,2,
+20,Dore,Karine,2,2,
+21,Eitoku,Atsushi,9,2,
+22,Fabre,Julie,4,2,1
+23,Farinelli,Roberta,8,2,1
+24,Farinelli,Roberta,8,2,20
+25,Fatovic,Elvis,0,36,3
+26,Fediushyna,Tetiana,19,2,
+27,Forrest,Scott,6,24,21
+28,Friday,Mike,20,24,3
+29,Fuentes,Andrea,20,2,1
+30,Fujiki,Mayuko,16,2,1
+31,Fujiki,Mayuko,16,2,20
+32,Gademan,Pasha,2,17,3
+33,Gaidukov,Aleksandr,14,36,21
+34,Giallombardo,Patrizia,8,2,1
+35,Giallombardo,Patrizia,8,2,20
+36,Gryzunova,Elena,14,2,20
+37,Hager,Mark,6,17,21
+38,Halkett,Rhett,10,17,
+39,Havenga,Arno,10,36,21
+40,Henkel,Claas,5,17,3
+41,Henning,Andre,2,17,3
+42,Imura,Masayo,9,2,
+43,Iwabuchi,Kensuke,9,24,3
+44,Jauma,Cayuela,10,2,1
+45,Jennings,Dee,0,17,
+46,Jimenez,Nieto,16,2,
+47,Keller,Florian,5,17,21
+48,Kerry,Danny,6,17,3
+49,Krikorian,Adam,20,36,21
+50,Kulesza,Katarzyna,2,2,20
+51,Kuzin,Andrey,14,24,21
+52,Laidlaw,Clark,11,24,3
+53,Lock,Adrian,16,17,21
+54,Mackintosh,Euan,12,24,21
+55,Makiri,Hare,9,24,21
+56,Manenti,John,0,24,21
+57,Marcz,Tamas,7,36,3
+58,Martin,Lozano,16,36,3
+59,Mengual,Civil,16,2,
+60,Mezhenina,Valeriia,19,2,20
+61,Mihailovic,Predrag,0,36,21
+62,Miura,Keiko,9,17,21
+63,Miyakawa,Miya,9,2,
+64,Montico,Loredana,0,2,1
+65,Montico,Loredana,0,2,20
+66,Motomiya,Makihiro,9,36,21
+67,Nishida,Takumi,9,24,
+68,Oca,Gaia,16,36,21
+69,Omoto,Yoji,9,36,3
+70,Paradelo,David,2,36,21
+71,Paul,Henry,2,24,3
+72,Pibiri,Rossella,8,2,
+73,Piskareva,Ekaterina,14,2,
+74,Porobic,Petar,12,36,21
+75,Potter,Anthony,0,17,3
+76,Powell,Katrina,0,17,21
+77,Reckinger,Xavier,5,17,21
+78,Requena,Pericas,16,2,1
+79,Requena,Pericas,16,2,20
+80,Roques,Anthony,6,24,3
+81,Seo,Chun,15,24,3
+82,Shaw,Graham,11,17,21
+83,Smith,Darren,11,17,3
+84,Soyez,Frederic,16,17,3
+85,Speroni,Stefania,6,2,1
+86,Staniforth,Dave,0,17,
+87,Szauder,Gabor,2,2,1
+88,Szauder,Gabor,2,2,20
+89,Takita,Risako,9,2,
+90,Tomomatsu,Yumiko,8,2,
+91,Turner,Glenn,11,17,3
+92,Udovicic,Dejan,20,36,3
+93,Utkin,Volodymyr,19,2,
+94,Vega,Herrero,16,2,
+95,Voronova,Elena,14,2,1
+96,Walsh,Tim,0,24,3
+97,Wang,Jie,12,2,1
+98,Wang,Jie,12,2,20
+99,Wang,Yang,12,17,21
+100,Zaitseva,Olesia,19,2,1
+101,Zhang,Xiaohuan,12,2,
+102,Zijp,Simon,10,17,

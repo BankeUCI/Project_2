@@ -38,7 +38,9 @@ REFERENCES "athlete" ("noc");
 ALTER TABLE "medals" ADD CONSTRAINT "fk_medals_noc" FOREIGN KEY("noc")
 REFERENCES "athlete" ("noc");
 
-
+/*
+Check if data loaded sucessfully
+*/
 
 select * from athlete;
 

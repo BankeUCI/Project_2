@@ -7,6 +7,12 @@ Project 2
 
 Project Proposal: build an ETL pipeline to process 2021 Olympics in Tokyo athletes-events data from different sources.
 
+Team #4
+Jasper Chou: Create ERD
+Galyna Malynsja: Extract and Transform
+Michael Liu: PosgreSQL and Load
+Banke Ogunjumo: Project proposal and mapping doc
+
 Business rules:
 
 1. List of countries allowed:

@@ -26,7 +26,6 @@ Business rules:
      b) First and Last Name of coaches
 
 5. Cleaning:
-- no nulls
-- no duplicates 
+-  must have a unique id column to link from one table to another
 
 

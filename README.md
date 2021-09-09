@@ -18,15 +18,12 @@ Jasper Chou, Galyna Malynska, Michael Liu, Banke Ogunjumo
 - Gold
 - Total
 
-3. Disciplines of interest: 
-- should not contain 'ball'
-
-4. Columns:
+3. Columns:
 - should contain unique values: no double values are allowed like e.g.
      a) First and Last Name of athletes
      b) First and Last Name of coaches
 
-5. Cleaning:
+4. Cleaning:
 -  must have a unique id column to link from one table to another
 
 

@@ -1,35 +1,37 @@
 event_id,event_name
 0,4 x 400m Relay Mixed
-1,Duet
-2,Group All-Around
-3,Men
-4,Men's 4 x 100m Freestyle Relay
-5,Men's 4 x 100m Medley Relay
-6,Men's 4 x 100m Relay
-7,Men's 4 x 200m Freestyle Relay
-8,Men's 4 x 400m Relay
-9,Men's Foil Team
-10,Men's Madison
-11,Men's Sabre Team
-12,Men's Team
-13,Men's Team Pursuit
-14,Men's Team Sprint
-15,Men's Épée Team
-16,Mixed 4 x 100m Medley Relay
-17,Mixed Doubles
-18,Mixed Relay
-19,Mixed Team
-20,Team
-21,Women
-22,Women's 4 x 100m Freestyle Relay
-23,Women's 4 x 100m Medley Relay
-24,Women's 4 x 100m Relay
-25,Women's 4 x 200m Freestyle Relay
-26,Women's 4 x 400m Relay
-27,Women's Foil Team
-28,Women's Madison
-29,Women's Sabre Team
-30,Women's Team
-31,Women's Team Pursuit
-32,Women's Team Sprint
-33,Women's Épée Team
+1,Baseball
+2,Duet
+3,Group All-Around
+4,Men
+5,Men's 4 x 100m Freestyle Relay
+6,Men's 4 x 100m Medley Relay
+7,Men's 4 x 100m Relay
+8,Men's 4 x 200m Freestyle Relay
+9,Men's 4 x 400m Relay
+10,Men's Foil Team
+11,Men's Madison
+12,Men's Sabre Team
+13,Men's Team
+14,Men's Team Pursuit
+15,Men's Team Sprint
+16,Men's Épée Team
+17,Mixed 4 x 100m Medley Relay
+18,Mixed Doubles
+19,Mixed Relay
+20,Mixed Team
+21,Softball
+22,Team
+23,Women
+24,Women's 4 x 100m Freestyle Relay
+25,Women's 4 x 100m Medley Relay
+26,Women's 4 x 100m Relay
+27,Women's 4 x 200m Freestyle Relay
+28,Women's 4 x 400m Relay
+29,Women's Foil Team
+30,Women's Madison
+31,Women's Sabre Team
+32,Women's Team
+33,Women's Team Pursuit
+34,Women's Team Sprint
+35,Women's Épée Team

@@ -23,7 +23,7 @@
      - load teams table
      - load coaches table
 
-### Challenge faced
+### Challenges faced
 
 1. Data set is too new and very unorganized
 2. Foreign Key Violation due to null value

@@ -7,7 +7,7 @@
 (this is the jupytor notebook file to connect to local database and load our final csv files)
 
 2. **SchemaFinal.sql**
-(this is the schema file to create tables)
+(this is the same schema file from Galyna's folder to create tables)
 
 ### Loading Transformed CSV Files
 

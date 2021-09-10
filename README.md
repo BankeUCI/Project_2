@@ -9,7 +9,8 @@
 #### Folders:
 
 * Banke
-- Project Documentation
+
+Project Documentation
 
 * GalynaM
 - Extract, Transform stage, ERD.

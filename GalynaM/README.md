@@ -1,10 +1,11 @@
 
-# Project_2 ETL 
+## Project_2 ETL GalynaM
 
-### GalynaM readme
+#### extract_transf.ipynb
+- Transformation stage implemented, Table and Business Rules applied.
 
-## Project Proposal 
-- Build an ETL pipeline to process 2021 Olympics in Tokyo athletes-events data from different sources. 
+#### queries.sql
+- SQL queries applied to athena tables.
 
 ### Extract Stage
 
@@ -39,20 +40,24 @@ Teams.xlsx
 
 #### 1. Table Rules
 
-	- Table Medals:  Medals of interest: Gold and Total medals.
-	Rule applied via AWS services.
-
-#### 2. Business Rules
 	Rules applied via Python, Pandas.
-
 	- Each field should contain a single value.
 	Column Name in Coaches and Athletes tables removed, last_name and first_name columns added instead.
-
+	
 	- Each Table should have unique id column.
 	Integer unique identifier was generated for each table.
-
+	
 	- All columns in table should be dependent on unique id column.
-	Tables Countries, Discipline, Event were added. Values in corresponding columns were changed accordingly.
+	Tables Countries, Discipline, Event were added.
+	
 
-	- Values should be capitalized.
-	Values in Coaches, Athletes were Capitalized.
+#### 2. Business Rules
+	
+	- Medals table should contain only Medals of interest: Gold and Total medals.
+	Rule applied via AWS services.
+
+	- Values in tables should be capitalized.
+	Values in Coaches, Athletes, Teams were Capitalized.
+	
+	- Values for Countries, Disciplines, Events in referring tables
+	should be integers.

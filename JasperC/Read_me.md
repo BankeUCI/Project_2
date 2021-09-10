@@ -1,0 +1,3 @@
+READ ME
+
+This portion of the project was to develop the ERD schema and diagram for our Tokyo Olympics database.  In this version, a schema was made that not every table had a Primary Key.  The athletes table contains a column: athlete_id, with no relation to any other column in the dataset.  However in optional schemas, primary keys were assigned to all tables in the event that additional data or tables were joined.

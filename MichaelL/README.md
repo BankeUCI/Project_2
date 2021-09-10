@@ -3,10 +3,10 @@
 
 ### Files
 
-**1. Load_data_final.ipynb
+1. **Load_data_final.ipynb**
 (this is jupytor notebook file to connect to local database and load our final csv files)
 
-**2. SchemaFinal.sql
+2. **SchemaFinal.sql**
 (schema file to create tables)
 
 ### Loading Transformed CSV Files

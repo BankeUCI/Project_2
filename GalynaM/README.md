@@ -1,7 +1,7 @@
 
 ## Project_2 ETL GalynaM
 
-* ----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 #### extract_transf.ipynb
 - Transformation stage implemented, Table and Business Rules applied.
@@ -15,7 +15,7 @@
 #### Resources
 - Extracted via Athena SQL queries CSVs with applied BR to extract only data for specific countries.
 
-* ----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 
 ### Extract Stage

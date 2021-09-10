@@ -8,6 +8,7 @@
 3. Read transformed files from Output folder
 4. Connect to the database
 5. Load tables in sequence
+     - load athletes table
      - load events table
      - load discipline table
      - load medals table

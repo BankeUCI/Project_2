@@ -1,95 +1,95 @@
-CREATE TABLE "Coaches" (
+CREATE TABLE "coaches" (
     "coach_id" int   NOT NULL,
     "last_name" varchar(200)   NOT NULL,
     "first_name" varchar(200)   NOT NULL,
     "country_id" int   NOT NULL,
     "discipline_id" int   NOT NULL,
-    "event_id" int   NOT NULL,
-    CONSTRAINT "pk_Coaches" PRIMARY KEY (
+    "event_id" int,
+    CONSTRAINT "pk_coaches" PRIMARY KEY (
         "coach_id"
      )
 );
 
-CREATE TABLE "Athletes" (
+CREATE TABLE "athletes" (
     "athlete_id" int   NOT NULL,
     "last_name" varchar(200)   NOT NULL,
-    "first_name" money   NOT NULL,
+    "first_name" varchar(200)   NOT NULL,
     "country_id" int   NOT NULL,
     "discipline_id" int   NOT NULL,
-    CONSTRAINT "pk_Athletes" PRIMARY KEY (
+    CONSTRAINT "pk_athletes" PRIMARY KEY (
         "athlete_id"
      )
 );
 
-CREATE TABLE "Teams" (
+CREATE TABLE "teams" (
     "team_id" int   NOT NULL,
     "name" varchar(200)   NOT NULL,
     "country_id" int   NOT NULL,
     "discipline_id" int   NOT NULL,
     "event_id" int   NOT NULL,
-    CONSTRAINT "pk_Teams" PRIMARY KEY (
+    CONSTRAINT "pk_teams" PRIMARY KEY (
         "team_id"
      )
 );
 
-CREATE TABLE "Medals" (
+CREATE TABLE "medals" (
     "country_id" int   NOT NULL,
     "gold" int   NOT NULL,
     "total" int   NOT NULL,
     "rank" int   NOT NULL,
     "rank_by_total" int   NOT NULL,
-    CONSTRAINT "pk_Medals" PRIMARY KEY (
+    CONSTRAINT "pk_medals" PRIMARY KEY (
         "country_id"
      )
 );
 
-CREATE TABLE "Countries" (
+CREATE TABLE "countries" (
     "country_id" int   NOT NULL,
     "country_name" varchar(200)   NOT NULL,
-    CONSTRAINT "pk_Countries" PRIMARY KEY (
+    CONSTRAINT "pk_countries" PRIMARY KEY (
         "country_id"
      )
 );
 
-CREATE TABLE "Disciplines" (
+CREATE TABLE "disciplines" (
     "discipline_id" int   NOT NULL,
     "discipline_name" varchar(200)   NOT NULL,
-    CONSTRAINT "pk_Disciplines" PRIMARY KEY (
+    CONSTRAINT "pk_disciplines" PRIMARY KEY (
         "discipline_id"
      )
 );
 
-CREATE TABLE "Events" (
+CREATE TABLE "events" (
     "event_id" int   NOT NULL,
     "event_name" varchar(200)   NOT NULL,
-    CONSTRAINT "pk_Events" PRIMARY KEY (
+    CONSTRAINT "pk_events" PRIMARY KEY (
         "event_id"
      )
 );
 
-ALTER TABLE "Coaches" ADD CONSTRAINT "fk_Coaches_country_id" FOREIGN KEY("country_id")
-REFERENCES "Countries" ("country_id");
+ALTER TABLE "coaches" ADD CONSTRAINT "fk_coaches_country_id" FOREIGN KEY("country_id")
+REFERENCES "countries" ("country_id");
 
-ALTER TABLE "Coaches" ADD CONSTRAINT "fk_Coaches_discipline_id" FOREIGN KEY("discipline_id")
-REFERENCES "Disciplines" ("discipline_id");
+ALTER TABLE "coaches" ADD CONSTRAINT "fk_coaches_discipline_id" FOREIGN KEY("discipline_id")
+REFERENCES "disciplines" ("discipline_id");
 
-ALTER TABLE "Coaches" ADD CONSTRAINT "fk_Coaches_event_id" FOREIGN KEY("event_id")
-REFERENCES "Events" ("event_id");
+ALTER TABLE "coaches" ADD CONSTRAINT "fk_coaches_event_id" FOREIGN KEY("event_id")
+REFERENCES "events" ("event_id");
 
-ALTER TABLE "Athletes" ADD CONSTRAINT "fk_Athletes_country_id" FOREIGN KEY("country_id")
-REFERENCES "Countries" ("country_id");
+ALTER TABLE "athletes" ADD CONSTRAINT "fk_athletes_country_id" FOREIGN KEY("country_id")
+REFERENCES "countries" ("country_id");
 
-ALTER TABLE "Athletes" ADD CONSTRAINT "fk_Athletes_discipline_id" FOREIGN KEY("discipline_id")
-REFERENCES "Disciplines" ("discipline_id");
+ALTER TABLE "athletes" ADD CONSTRAINT "fk_athletes_discipline_id" FOREIGN KEY("discipline_id")
+REFERENCES "disciplines" ("discipline_id");
 
-ALTER TABLE "Teams" ADD CONSTRAINT "fk_Teams_country_id" FOREIGN KEY("country_id")
-REFERENCES "Countries" ("country_id");
+ALTER TABLE "teams" ADD CONSTRAINT "fk_teams_country_id" FOREIGN KEY("country_id")
+REFERENCES "countries" ("country_id");
 
-ALTER TABLE "Teams" ADD CONSTRAINT "fk_Teams_discipline_id" FOREIGN KEY("discipline_id")
-REFERENCES "Disciplines" ("discipline_id");
+ALTER TABLE "teams" ADD CONSTRAINT "fk_teams_discipline_id" FOREIGN KEY("discipline_id")
+REFERENCES "disciplines" ("discipline_id");
 
-ALTER TABLE "Teams" ADD CONSTRAINT "fk_Teams_event_id" FOREIGN KEY("event_id")
-REFERENCES "Events" ("event_id");
+ALTER TABLE "teams" ADD CONSTRAINT "fk_teams_event_id" FOREIGN KEY("event_id")
+REFERENCES "events" ("event_id");
 
-ALTER TABLE "Medals" ADD CONSTRAINT "fk_Medals_country_id" FOREIGN KEY("country_id")
-REFERENCES "Countries" ("country_id");
+ALTER TABLE "medals" ADD CONSTRAINT "fk_medals_country_id" FOREIGN KEY("country_id")
+REFERENCES "countries" ("country_id");

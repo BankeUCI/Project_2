@@ -1,13 +1,25 @@
 
 ## Project_2 ETL GalynaM
 
+* ----------------------------------------------------------------------------------------------------
+
 #### extract_transf.ipynb
 - Transformation stage implemented, Table and Business Rules applied.
 
 #### queries.sql
-- SQL queries applied to athena tables.
+- SQL queries applied to Athena tables.
+
+#### schema_db.sql
+- DB schema for PostgreSQL
+
+#### Resources
+- Extracted via Athena SQL queries CSVs with applied BR to extract only data for specific countries.
+
+* ----------------------------------------------------------------------------------------------------
+
 
 ### Extract Stage
+
 
 #### 1. Data Source.
 https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo
@@ -36,7 +48,9 @@ Teams.xlsx
 	Athena tables were created via AWS Glue Crawler.
 	SQL queries were used to select data that correspond to the countries of interest.
 
+
 ### Transform Stage
+
 
 #### 1. Table Rules
 

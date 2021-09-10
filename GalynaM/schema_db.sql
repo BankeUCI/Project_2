@@ -11,7 +11,7 @@ CREATE TABLE "Coaches" (
     "first_name" string   NOT NULL,
     "country_id" int   NOT NULL,
     "discipline_id" int   NOT NULL,
-    "event_id" int   NOT NULL,
+    "event_id" int,
     CONSTRAINT "pk_Coaches" PRIMARY KEY (
         "coach_id"
      )

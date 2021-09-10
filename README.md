@@ -8,22 +8,33 @@
 
 #### Folders:
 
+
 * Banke
 
 Project Documentation
 
+
 * GalynaM
-- Extract, Transform stage, ERD.
+
+Extract, Transform stage, ERD.
+
 
 * JasperC
-- ERD schema developed.
+
+ERD schema developed.
+
 
 * MichaelL
-- Loading stage, DB in PostgreSQL.
+
+Loading stage, DB in PostgreSQL.
+
 
 * Resources
-- Initial DataSet from Kagel.
-- https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo
+
+Initial DataSet from Kagel.
+https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo
+
 
 * Output
-- Transformed and ready to be loaded into DB CSV files.
+
+Transformed and ready to be loaded into DB CSV files.
